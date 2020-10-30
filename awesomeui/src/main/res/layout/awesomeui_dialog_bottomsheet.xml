@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center_horizontal"
+    android:background="@drawable/awesomeui_dialog_bottomsheet_bg"
+    android:minHeight="@dimen/awesomeui_bottom_sheet_min_height"
+    android:orientation="vertical"
+    tools:viewBindingIgnore="true">
+
+    <TextView
+        android:id="@+id/awesome_bs_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/awesomeui_bottom_sheet_item_height"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/awesomeui_color_dialog_title"
+        android:textSize="15sp"
+        tools:text="Tips" />
+
+    <View
+        android:id="@+id/awesome_bs_title_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/awesomeui_color_separator" />
+
+    <FrameLayout
+        android:id="@+id/awesome_bs_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1" />
+
+    <View
+        android:id="@+id/awesome_bs_cancel_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/awesomeui_color_separator" />
+
+    <Button
+        android:id="@+id/awesome_bs_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/awesomeui_bottom_sheet_item_height"
+        android:background="?attr/selectableItemBackground"
+        android:textColor="@color/awesomeui_color_action_neutral"
+        android:textSize="12sp"
+        tools:text="cancel" />
+</LinearLayout>

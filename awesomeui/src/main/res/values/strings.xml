@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="awesomeui_image_content_desc" translatable="false">awesome ui image</string>
+    <!-- 零宽空格，用于修复小米等系统对字符的缩略错误 -->
+    <string name="tool_fixellipsize" translatable="false">\u200b</string>
+    <string name="common_processing">正在处理</string>
+</resources>

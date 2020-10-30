@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AwesomeUI.AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="bottomSheetDialogTheme">@style/AwesomeUI.Dialog.BottomSheet</item>
+        <item name="switchStyle">@style/AwesomeUI.Widget.Switch</item>
+    </style>
+
+    <style name="AwesomeUI.AppTheme.Transparent" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="bottomSheetDialogTheme">@style/AwesomeUI.Dialog.BottomSheet.Transparent</item>
+    </style>
+</resources>

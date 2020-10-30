@@ -1,0 +1,3 @@
+include ':awesomeui'
+include ':app'
+rootProject.name = "AwesomeUI"

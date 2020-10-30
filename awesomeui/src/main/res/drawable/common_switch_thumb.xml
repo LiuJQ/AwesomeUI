@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!--
+        NOTE
+        We want a thumb with padding around it inside the track.
+        Sadly, a switch draws its track and thumb with the same height ignoring
+        any padding of the drawable, so using a shape with padding does not work.
+        To overcome, we apply a trick. We create layer list because the
+        LayerListDrawable draws itself with taking the top, left, right, bottom
+        values into account.
+        -->
+        <layer-list>
+            <item
+                android:top="3dp"
+                android:left="3dp"
+                android:right="3dp"
+                android:bottom="3dp">
+                <!--
+                NOTE
+                No need to specify size because:
+                  - The thumb fills the track in height.
+                  - The thumb width is determined from thumb max(on, off) text +
+                    text padding + drawable padding.
+                -->
+                <shape android:shape="oval">
+                    <solid android:color="@color/common_white"/>
+                    <!-- NOTE did not work, had to set Switch's thumbTextPadding to the radius -->
+                    <!--
+                    <padding android:right="@dimen/switch_thumb_radius"
+                             android:left="@dimen/switch_thumb_radius"/>
+                    -->
+                    <size android:width="22dp" android:height="22dp" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

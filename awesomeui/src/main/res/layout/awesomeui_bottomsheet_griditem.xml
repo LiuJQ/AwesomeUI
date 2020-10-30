@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/awesomeui_ripple_griditem"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:viewBindingIgnore="true">
+
+    <ImageView
+        android:id="@+id/awesome_bs_item_grid_image"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:contentDescription="@string/awesomeui_image_content_desc"
+        android:scaleType="centerInside"
+        tools:src="@drawable/icon_share_wx_friend" />
+
+    <TextView
+        android:id="@+id/awesome_bs_item_grid_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:textColor="@color/awesomeui_color_action_neutral"
+        android:textSize="12sp"
+        tools:text="微信" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_white">#ffffffff</color>
+    <color name="common_red">#FD625C</color>
+    <color name="common_blue">#0287FD</color>
+
+    <color name="awesomeui_color_transparent">#00000000</color>
+    <color name="awesomeui_color_separator">#DEE0E2</color>
+    <color name="awesomeui_color_dialog_title">#000000</color>
+    <color name="awesomeui_color_action_positive">#FFFFFF</color>
+    <color name="awesomeui_color_action_negative">#979797</color>
+    <color name="awesomeui_color_action_neutral">#979797</color>
+    <color name="awesomeui_color_message">#979797</color>
+</resources>

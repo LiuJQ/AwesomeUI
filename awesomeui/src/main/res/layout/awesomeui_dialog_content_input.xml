@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:viewBindingIgnore="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/awesome_input_edt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/awesomeui_input_height"
+        style="@style/AwesomeUI.Widget.EditText" />
+
+    <CheckBox
+        android:id="@+id/awesome_input_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:button="@drawable/awesomeui_password_checkbox"
+        android:layout_marginEnd="15dp" />
+
+</RelativeLayout>

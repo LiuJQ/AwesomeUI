@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="awesomeui_dialog_min_width">300dp</dimen>
+    <dimen name="awesomeui_dialog_min_height">200dp</dimen>
+    <dimen name="awesomeui_bottom_sheet_min_height">150dp</dimen>
+    <dimen name="awesomeui_bottom_sheet_item_height">50dp</dimen>
+    <dimen name="awesomeui_dialog_action_button_width">50dp</dimen>
+    <dimen name="awesomeui_dialog_action_button_height">48dp</dimen>
+    <dimen name="awesomeui_dialog_padding_horizontal">24dp</dimen>
+    <dimen name="awesomeui_ripple_radius_grid_item">45dp</dimen>
+    <dimen name="awesomeui_input_height">45dp</dimen>
+</resources>
