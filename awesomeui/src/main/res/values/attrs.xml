@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AwesomeCaptchaView">
+        <attr name="boxWidth" format="dimension" />
+        <attr name="boxHeight" format="dimension" />
+        <attr name="boxMargin" format="dimension" />
+        <attr name="boxCount" format="integer" />
+        <attr name="boxBackground" format="reference" />
+    </declare-styleable>
+</resources>

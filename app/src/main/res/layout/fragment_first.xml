@@ -16,6 +16,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <cn.jackin.awesomeui.view.AwesomeCaptchaView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:inputType="textVisiblePassword"
+        android:textColor="#2F92FF"
+        app:boxBackground="@drawable/bg_captcha_box"
+        app:boxCount="5"
+        app:boxHeight="50dp"
+        app:boxMargin="10dp"
+        app:boxWidth="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/button_first"
         android:layout_width="wrap_content"
